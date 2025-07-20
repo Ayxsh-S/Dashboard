@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+         <div class="header-content">
+          <form class="form" action="/search" method="GET">
+          <input class="search-bar" type="text" name="query" placeholder="Search..." />
+          <button class="search-button" type="submit">Search</button>
+          </form>
+        
+            <button style="background: none; border: none; cursor: pointer;">
+            <svg id="bell" width="32" height="32" viewBox="0 0 24 24" fill="#333" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C10.34 2 9 3.34 9 5V6.28C6.71 7.22 5.13 9.4 5.01 12.01L5 12.25V16L3 18V19H21V18L19 16V12.25C19 9.35 16.9 6.94 14 6.28V5C14 3.34 12.66 2 11 2H12ZM12 22C13.1 22 14 21.1 14 20H10C10 21.1 10.9 22 12 22Z" stroke="black" stroke-width="2"/>
+            </svg>
+            </button>
+
+            <img id="profile-pic" style="cursor: pointer;" src="./images/Rocket-League.jpg" alt="profile-pic">
+
+            <div class="header-text">Ayxsh-S</div>
+
+         </div>
+         <div class="header-content-subsection">
+            <div class="profile">
+            <img id="profile-pic" style="width: 70px; height: 70px; margin-top: 10px;" src="./images/Rocket-League.jpg" alt="profile-pic">
+            <div class="header-greeting">Welcome back,
+                <div class="header-name"> Ayxsh-S (@Ayxsh_RL)</div>
+            </div>
+            </div>
+            <button class="super-cool-button" type="button">New</button>
+            <button class="super-cool-button" type="button">Upload</button>
+            <button class="super-cool-button" type="button">Share</button>
+              
+            
+         </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-container">
+            <div class="sidebar-heading"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 64 64" fill="white">
+  <rect x="5" y="4" width="24" height="24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="34" y="4" width="24" height="14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="34" y="24" width="24" height="24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="5" y="36" width="24" height="12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+Dashboard</div>
+            <ul>
+                <div class="sidebar-main">
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="white">
+  <path d="M8 24L32 4L56 24V56C56 57.1046 55.1046 58 54 58H38C36.8954 58 36 57.1046 36 56V40H28V56C28 57.1046 27.1046 58 26 58H10C8.89543 58 8 57.1046 8 56V24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>Home</a>
+</li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="white">
+  <circle cx="32" cy="20" r="12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 52C12 41.9543 20.9543 33 31.9999 33C43.0456 33 52 41.9543 52 52" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+ Profile</a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="white">
+  <path d="M8 12C8 9.79086 9.79086 8 12 8H52C54.2091 8 56 9.79086 56 12V40C56 42.2091 54.2091 44 52 44H20L8 56V12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+ Messages</a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="none">
+  <path d="M32 8C19.85 8 10 17.85 10 30H4L12 38L20 30H14C14 20.06 22.06 12 32 12C41.94 12 50 20.06 50 30C50 39.94 41.94 48 32 48C26.14 48 20.96 45.14 17.64 40.87L14.36 43.74C18.63 49.18 24.94 52 32 52C44.15 52 54 42.15 54 30C54 17.85 44.15 8 32 8Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 18V32L42 36" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+ History</a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="none">
+  <rect x="10" y="12" width="44" height="40" rx="4" stroke="white" stroke-width="4"/>
+  <path d="M20 22H44" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 32H44" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 42H44" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 22L16 24L18 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 32L16 34L18 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 42L16 44L18 40" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+ Tasks</a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="white">
+  <!-- Central person -->
+  <circle cx="32" cy="20" r="8" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 40C24 34 40 34 40 40V48H24V40Z" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+  
+  <!-- Left person -->
+  <circle cx="16" cy="26" r="6" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M12 40C12 36 20 36 20 40V44H12V40Z" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Right person -->
+  <circle cx="48" cy="26" r="6" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M44 40C44 36 52 36 52 40V44H44V40Z" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+</svg>
+ Communities</a></li>
+                </div>
+                <div class="sidebar-extras">
+                <li><a href="#"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="3"/>
+  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+</svg>
+ Settings</a></li>
+                <li><a href="#"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2 12h4l2-6 3 12 2-6 3 6h4" />
+</svg>
+ Support</a></li>
+                <li><a href="#"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield -->
+  <path d="M12 1L3 5v6c0 5 4 9 9 9s9-4 9-9V5l-9-4z"/>
+  <!-- Tick -->
+  <polyline points="8 12 11 15 16 10" />
+</svg>
+ Privacy</a></li>
+                </div>
+            </ul>
+        </div>
+        </div>
+
+        <div class="projects">
+            Your Projects
+            <div class="project-container">
+                <div class="card">
+
+                    <div class="card-header">🧠 Mindgames++
+
+                    </div>
+
+                    <div class="card-body">Implements fake challenges so advanced, even your own team doesn't know what you're doing. Including you.
+
+                    </div>
+
+                </div>
+                 <div class="card">
+                    <div class="card-header">💥 DemoTracker 9000</div>
+                    <div class="card-body">Keeps a live count of how many times you've been demoed, judged, and spiritually broken in one session.</div>
+
+                 </div>
+
+                  <div class="card">
+                    <div class="card-header">🧼 Clean Comm Protocol</div>
+
+                    <div class="card-body">An AI filters voice chat, turning “Where were you?!” into “I value your positioning instincts.”</div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header">📉 Queue Slip Insurance</div>
+
+                    <div class="card-body">If you drop 200 MMR in one night, you're automatically refunded… emotionally. No actual rank restoration included.</div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header">⚽ BallChaser Pro™</div>
+
+                    <div class="card-body">A motivational app that rewards you for chasing the ball at all costs. Bonus points for stealing goals and ignoring rotations.</div>
+
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-header">👑 Car Fashion Weekly</div>
+
+                    <div class="card-body">Ranks your car presets based on “vibe”, “sweatiness”, and “how much it looks like it wants to freestyle but can't.”</div>
+                  </div>
+            </div>
+        </div>
+          <div class="Extras">
+           <div class="Announcements">Announcements
+             <div class="announcements-container">
+                <div class="ann-content">
+                  <div class="ann-header">🔧 Patch 2.34 – Ball Still Round</div>
+                  <div class="ann-body">We've rolled out another minor patch that improves absolutely nothing, but the ball is still round and that's what counts. Carry on.</div>
+                </div>
+                <div class="ann-content">
+                  <div class="ann-header">🔓 Player-to-Player Trading Re-Enabled</div>
+                  <div class="ann-body">Just kidding. But we got your attention. (You’re welcome.)</div>
+                </div>
+                <div class="ann-content">
+                  <div class="ann-header">🚨 Mandatory Octane Alert!</div>
+                  <div class="ann-body">Starting now, you must purchase the Octane to play online. No Octane, no goals. Buy it or sit out. Thanks for understanding.</div>
+                </div>
+             </div>
+           </div>
+           <div class="Trending">Trending
+              <div class="trending-container">
+                
+                <div class="trending-item"><img src="./images/Bronze.png" alt="Bronze">
+                <div class="trending-text">@Zen_RL
+                    <div class="trending-content">Announcing retirement</div>
+                </div>
+                </div>
+                
+                <div class="trending-item"><img src="./images/Unknown.png" alt="Musty">
+                <div class ="trending-text">@amustycow
+                    <div class="trending-content">New dev for Rocket League</div>
+                </div>
+                </div>
+                <div class="trending-item"><img src="./images/c3ag6l5w1zy21.jpg" alt="Grand-Plat">
+                    <div class ="trending-text">@Rizzo
+                    <div class="trending-content">Back in the professional scene</div>   
+                    </div>               
+                </div>
+                <div class="trending-item"><img src="./images/Rocket-League.jpg" alt="RL-Logo">
+                    <div class ="trending-text">@Ayxsh_RL
+                    <div class="trending-content">Globally ranked best player</div>
+                    </div>
+                </div>
+
+              </div>
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<!-- 
+  (RL logo) https://www.google.com/url?sa=i&url=https%3A%2F%2Fthecentraltrend.com%2F86103%2Ffx-student-news-show%2Fsports%2Fthe-game-of-rocket-league%2F&psig=AOvVaw0dQNwcuon9N4GYPaROFKCh&ust=1753025221571000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCJDos4GeyY4DFQAAAAAdAAAAABAE
+  (grand-plat logo) https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRocketLeague%2Fcomments%2Fbq40a3%2Fgrand_plat%2F&psig=AOvVaw0ujlDmz7i9LviE9042pLHM&ust=1753043467510000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOie0_vhyY4DFQAAAAAdAAAAABAL
+  (musty logo) https://www.google.com/imgres?q=amustycow&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2FozKyhlLOPKep5VsJGqWp8oHrlbXpyYZGNdYCCP7xow8c5v1-Xpdrdz-rtqO6A67a9Rj4qOhq%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC1GFqqHIBaiCW1ivJJCFTvg&docid=Yta3uJ2mqDPh-M&tbnid=7DEhSoSqtaf9dM&vet=12ahUKEwiLhNy54cmOAxVNTUEAHcBgO3YQM3oECBcQAA..i&w=900&h=900&hcb=2&ved=2ahUKEwiLhNy54cmOAxVNTUEAHcBgO3YQM3oECBcQAA
+  (grand-bronze logo) https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FRocketLeague%2Fcomments%2F11dnhu5%2Fby_popular_demand_but_still_very_bad_i_present_to%2F&psig=AOvVaw2y4-0km7_OP9OEqsOADND2&ust=1753043055073000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCNiRwrfgyY4DFQAAAAAdAAAAABAE
+ -->
